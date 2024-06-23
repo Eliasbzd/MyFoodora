@@ -1,6 +1,6 @@
 # MyFoodora - Food Delivery System
 
-<img src="logo.png" alt="logo" width="200">
+<img src="logo.png" alt="logo" width="300">
 
 ## Overview
 
@@ -23,6 +23,4 @@ MyFoodora is a Java-based software solution for a food delivery system, similar 
 - **Pricing and Fidelity Cards**: Manage different types of fidelity cards and apply relevant pricing rules.
 - **Command-Line and Graphic Interface**: a CLI and GUI for interacting with the MyFoodora system, allowing users to enter commands for various operations.
 
-
-  ![Screen](gui.png)
 
