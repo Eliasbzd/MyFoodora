@@ -1,6 +1,6 @@
 # MyFoodora - Food Delivery System
 
-  ![logo](logo.png)
+<img src="logo.png" alt="logo" width="200">
 
 ## Overview
 
