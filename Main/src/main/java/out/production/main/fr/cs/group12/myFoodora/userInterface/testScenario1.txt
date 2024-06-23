@@ -1,0 +1,29 @@
+login ceo 123456789
+registerCustomer Elias lastname elias 1,4 password
+registerCustomer Nabil lastname nabil 12,3 password
+logout
+login elias password
+giveConsensusNotification
+logout
+login restaurant1 password1
+showMeals
+setSpecialOffer FullMeal
+login elias password
+createOrder Restaurant1 Order1
+addItem2Order Order1 BuffaloWings
+addItem2Order Order1 Lasagna
+addItem2Order Order1 FullMeal
+endOrder Order1 30 12 2020
+logout
+login nabil password
+createOrder Restaurant2 Order2
+addItem2Order Order2 FullMealVegetarian
+addItem2Order Order2 VegetarianLasagna
+endOrder Order2 20 8 2022
+logout
+login ceo 123456789
+showHistory
+showAverageIncomePerCustomer
+showTotalProfit
+showCourierDeliveries
+showRestaurantTop

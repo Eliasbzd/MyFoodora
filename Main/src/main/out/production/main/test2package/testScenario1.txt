@@ -1,0 +1,18 @@
+login ceo 123456789
+setup 3 2 2
+registerRestaurant RestaurantA (1,2)
+registerRestaurant "Restaurant B" "456 Elm St, City" "restB" "password"
+registerRestaurant "Restaurant C" "789 Oak St, City" "restC" "password"
+registerCustomer "Alice" "Smith" "alice" "100 Pine St, City" "password"
+registerCustomer "Bob" "Jones" "bob" "200 Cedar St, City" "password"
+registerCourier "Charlie" "Brown" "charlie" "300 Maple St, City" "password"
+registerCourier "David" "Wilson" "david" "400 Walnut St, City" "password"
+login alice password
+createOrder "Restaurant A" "Order1"
+addItem2Order "Order1" "Pizza"
+addItem2Order "Order1" "Salad"
+endOrder "Order1" "2024-05-30"
+login bob password
+createOrder "Restaurant B" "Order2"
+addItem2Order "Order2" "Burger"
+endOrder "Order2" "2024-05-30"

@@ -1,0 +1,31 @@
+login ceo 123456789
+setup 4 4 5
+registerCustomer "customerAfirstname" "customerAlastname" "customera" "1,4" "password"
+registerRestaurant RestaurantA 1,2 restA password
+registerRestaurant RestaurantB  1,3 restB password
+logout
+login restA password
+addDishRestaurantMenu CaesarSalad starter 5.99 true false
+addDishRestaurantMenu GrilledChicken maindish 12.99 false true
+addDishRestaurantMenu glace dessert 5.99 true false
+createMeal halfmeal1 halfmeal CaesarSalad GrilledChicken
+createMeal fullmeal1 fullmeal CaesarSalad GrilledChicken glace
+createMeal fullmeal2 fullmeal CaesarSalad GrilledChicken CaesarSalad
+showMeals
+showMeal halfmeal1
+setSpecialOffer halfmeal1
+removeSpecialOffer
+login customera password
+createOrder RestaurantA Order1
+addItem2Order Order1 glace
+endOrder Order1 30 12 2020
+showHistory
+logout
+login ceo 123456789
+showHistory
+showAverageIncomePerCustomer
+showTotalProfit
+showRestaurantTop
+showCourierDeliveries
+showMenuItem RestaurantA
+showHistory

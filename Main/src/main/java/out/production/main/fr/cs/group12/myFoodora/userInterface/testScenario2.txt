@@ -1,0 +1,44 @@
+login ceo 123456789
+registerCustomer Elias lastname elias 1,4 password
+registerCustomer Nabil lastname nabil 12,3 password
+logout
+login elias password
+giveConsensusNotification
+logout
+login restaurant1 password1
+setSpecialOffer FullMeal
+login elias password
+createOrder Restaurant1 Order1
+addItem2Order Order1 BuffaloWings
+addItem2Order Order1 Lasagna
+addItem2Order Order1 FullMeal
+endOrder Order1 10 5 2024
+logout
+login nabil password
+createOrder Restaurant2 Order2
+addItem2Order Order2 FullMealVegetarian
+addItem2Order Order2 VegetarianLasagna
+endOrder Order2 15 5 2024
+logout
+login ceo 123456789
+showTotalProfit
+setDeliveryPolicy FastestDelivery
+setProfitPolicy TargetProfitServiceFee
+applyProfitPolicy 20
+logout
+login elias password
+createOrder Restaurant1 Order3
+addItem2Order Order3 BuffaloWings
+addItem2Order Order3 Lasagna
+addItem2Order Order3 FullMeal
+endOrder Order3 15 6 2024
+logout
+login nabil password
+createOrder Restaurant2 Order4
+addItem2Order Order4 FullMealVegetarian
+addItem2Order Order4 VegetarianLasagna
+endOrder Order4 20 6 2024
+logout
+login ceo 123456789
+showTotalProfitPeriod 1 6 2024 30 6 2024
+showCourierDeliveries
